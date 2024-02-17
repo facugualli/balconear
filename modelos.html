@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="galeria.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <title>Balconear</title>
+</head>
+<body>
+    <header>
+   
+        <nav>
+            <img class="balconear" src="image/balconear.png" alt="">
+            
+            <div class="nav-bar"> 
+                <a class="nav-item" href="index.html">Home</a>
+                <a class="nav-item" href="modelos.html">Modelos</a>
+                <a class="nav-item" href="http://balconear.mitiendanube.com">Tienda</a>
+                <a class="nav-item" href="contacto.html">Contacto</a>
+            </div>
+            
+            <img class="logo" src="image/conejo.png" alt="">
+        </nav>
+    </header>
+
+        <div class="galeria" >
+            <div class="container">
+                <ul class="slider">
+                    <li id="slide1">
+                        <img id="imagen1" class="img-galeria" src="imagen-modelos/clasica.PNG" alt="barra">
+                        <div class="linea"></div>
+                        <img id="imagen" class="img-galeria" src="imagen-modelos/clasica1.PNG" alt="barra">
+                        <div class="linea"></div>
+                        <img id="imagen" class="img-galeria" src="imagen-modelos/clasica2.PNG" alt="barra">
+                    </li>
+                    <li id="slide2">
+                        <img id="imagen" class="img-galeria" src="imagen-modelos/kraken.PNG" alt="barra">
+                        <div class="linea"></div>
+                        <img id="imagen" class="img-galeria" src="imagen-modelos/kraken1.PNG" alt="barra">
+                        <div class="linea"></div>
+                        <img id="imagen" class="img-galeria" src="imagen-modelos/kraken.PNG" alt="barra">
+                    </li>
+                    <li id="slide3">
+                        <img id="imagen" class="img-galeria" src="imagen-modelos/kraken.PNG" alt="barra">
+                        <div class="linea"></div>
+                        <img id="imagen" class="img-galeria" src="imagen-modelos/kraken.PNG" alt="barra">
+                        <div class="linea"></div>
+                        <img id="imagen" class="img-galeria" src="imagen-modelos/kraken.PNG" alt="barra">
+                    </li>
+                    <li id="slide4">
+                        <img id="imagen" class="img-galeria" src="imagen-modelos/ndudu.PNG" alt="barra">
+                        <div class="linea"></div>
+                        <img id="imagen" class="img-galeria" src="imagen-modelos/ndudu1.PNG" alt="barra">
+                        <div class="linea"></div>
+                        <img id="imagen" class="img-galeria" src="imagen-modelos/ndudu2.PNG" alt="barra">
+                    </li>
+                </ul>
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+                
+            </div>
+
+           
+
+            <div class="nav-slider">
+                <ul class="menu">
+                    <li><a class="a-slider" href="#slide1">Clasica</a></li>
+                    <li><a class="a-slider" href="#slide2">Kraken</a></li>
+                    <li><a class="a-slider" href="#slide3">Banqueta</a></li>
+                    <li><a class="a-slider" href="#slide4">Nundu</a></li>
+                </ul>
+            </div> 
+        </div>
+
+        
+	</div>
+	
+	<script src="modelos.js"></script>
+	<script src="slider.js"></script>
+
+	
+</body>
+</html>

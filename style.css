@@ -1,0 +1,114 @@
+body {
+    background-image: url(image/opcion4.jpg);
+}
+
+.nav-bar {
+    margin-left: 530px;
+}
+
+nav {
+    background: #02161ed1;
+    margin-left: -10px;
+    margin-right: -8px;
+    height: 54px;
+    position: relative;
+    margin-top: -8px;
+}
+
+.balconear {
+    float: left;
+    margin-left: -110px;
+    margin-top: -29px;
+}
+
+.nav-item {
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding: 11px;
+    color: #d57842;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover, a:focus {
+    background-size: 100% 2px;
+}
+
+.logo {
+    float: right;
+    margin-top: -76px;
+}
+
+.barra {    
+    margin-top: -111px;
+    margin-left: -5px;
+    width: 101%;
+}
+
+
+
+#animacion:hover  {
+  text-decoration: none;
+  cursor: pointer;
+  background-size: 100% 2px;
+}
+
+#animacion1:hover  {
+  text-decoration: none;
+  cursor: pointer;
+  background-size: 100% 2px;
+}
+
+
+.animacion-div {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #d57842;
+    font-size: 23px;
+    float: right;
+    transform: rotate(270deg);
+    margin-right: -204px;
+    margin-top: 90px;
+    background: #02161ed1;
+    padding: 10px;
+    height: 32px;
+    border-radius: 9px 9px 0 0;
+    width: 148px;
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.animacion-barra {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #d57842;
+    font-size: 23px;
+    float: right;
+    transform: rotate(270deg);
+    margin-right: -255px;
+    margin-top: 326px;
+    background: #02161ed1;
+    padding: 10px;
+    height: 31px;
+    border-radius: 9px 9px 0 0;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
